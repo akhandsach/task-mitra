@@ -1,0 +1,59 @@
+.profile-page {
+  background: var(--bg-color);
+  min-height: calc(100vh - 70px);
+  padding-bottom: 80px;
+}
+
+.profile-header-bg {
+  height: 200px;
+  background-color: var(--slate-900);
+}
+
+.profile-container {
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+/* Base utility classes for layout within the profile */
+.p-10 { padding: 40px; }
+.gap-10 { gap: 40px; }
+.w-40 { width: 160px; }
+.h-40 { height: 160px; }
+.border-4 { border-width: 4px; }
+.border-white { border-color: white; border-style: solid; }
+.shadow-md { box-shadow: var(--shadow-md); }
+.bg-white { background-color: white; }
+.-mt-20 { margin-top: -80px; }
+.text-3xl { font-size: 1.875rem; }
+.mb-2 { margin-bottom: 8px; }
+.text-lg { font-size: 1.125rem; }
+.mb-6 { margin-bottom: 24px; }
+.gap-8 { gap: 32px; }
+.leading-tight { line-height: 1.25; }
+.my-10 { margin: 40px 0; border: none; border-top: 1px solid var(--slate-200); }
+.text-2xl { font-size: 1.5rem; }
+.mt-10 { margin-top: 40px; }
+
+.p-8 { padding: 32px; }
+.sticky { position: sticky; }
+.top-24 { top: 96px; }
+.font-extrabold { font-weight: 800; }
+.text-5xl { font-size: 3rem; }
+.py-6 { padding-top: 24px; padding-bottom: 24px; }
+.border-y { border-top: 1px solid var(--slate-200); border-bottom: 1px solid var(--slate-200); }
+.py-3 { padding-top: 12px; padding-bottom: 12px; }
+
+@media (max-width: 1024px) {
+  .profile-container { grid-template-columns: 1fr; }
+  .booking-card { position: static; }
+  .profile-header-bg { height: 120px; }
+  .-mt-20 { margin-top: -60px; }
+}
+
+@media (max-width: 768px) {
+  .profile-top { flex-direction: column; align-items: center; text-align: center; gap: 24px;}
+  .name-wrapper { flex-direction: column; align-items: center; gap: 8px;}
+  .metrics-row { flex-direction: column; gap: 16px; align-items: center;}
+}
