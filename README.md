@@ -2,7 +2,10 @@
 
 TaskMitra is a high-performance, mobile-first service marketplace tailored for the Indian market. It integrates the best features of TaskRabbit (task posting), UrbanCompany (trusted home services), JustDial (business discovery), and Swiggy Genie (hyper-local logistics) into a single, cohesive platform.
 
-## 🚀 Key Features
+## 🚀 Live Demo
+**[https://task-mitra.vercel.app](https://task-mitra.vercel.app)**
+
+## ✨ Key Features
 
 - **Massive Service Directory**: Over 30+ categories including Furniture Assembly, Home Cleaning, Plumbing, Tutors, and Legal services.
 - **Professional Dashboards**:
@@ -27,7 +30,7 @@ Designed with a mobile-first paradigm to ensure accessibility across diverse dev
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/[REPO_OWNER]/task-mitra.git
+   git clone https://github.com/akhandsach/task-mitra.git
    ```
 2. Install dependencies:
    ```bash
